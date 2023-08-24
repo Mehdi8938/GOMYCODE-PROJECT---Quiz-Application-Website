@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://world-geography-games.com/games/flags/flags_world-countries/images/background.png);
+}
+.app {
+    background: #fff;
+    width: 90°;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1 {
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    border-bottom: 5px solid black;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.quiz {
+    padding: 20px 0;
+}
+.quiz h2 {
+    font-size: 18px;
+    color:#ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.btn {
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    border: 3px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #fff;
+    color: #222;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next {
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct {
+    background: green;
+}
+.incorrect {
+    background: red;
+}
+#questions {
+    text-align: center;
+    display: block;
+    border: .25px solid;
+    border-radius: 5px;
+    background: #333;
+    border-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#maintitle1 {
+    text-align: center;
+    display: block;
+}
+.container-fluid {
+    text-align: center;
+    display: flex;
+    margin: 1em 0;
+    background: #fff;
+    border: #222;
+    border-radius: 10px;
+    padding-top: 90px;
+    justify-content: center;
+    margin-top: -100px;
+    font-style: normal;
+    font-weight: bold;
+}
